@@ -1,0 +1,54 @@
+Orthotropic_materials:
+  E1: 155000
+  E2: 12100
+  E3: 12100
+  v12: 0.248
+  v13: 0.248
+  v23: 0.458
+  G23: 4150
+  G13: 4400
+  G12: 4400
+
+T_isotropic_materials:
+  E1: 155000
+  E2: 12100
+  v12: 0.248
+  v23: 0.458
+  G12: 4400
+
+Isotropic_materials:
+  E: 155000
+  v: 0.3
+
+Stress:
+  s1: 0
+  s2: -50
+  s3: -22.9
+  T23: 0
+  T13: 0
+  T12: 0
+
+Strain:
+  e1: 8.0E-05
+  e2: -4.13E-03
+  e3: 1.89E-03
+  g23: 0
+  g13: 0
+  g12: 0
+
+Object_dimensions:
+  L1: 50
+  L2: 50
+  L3: 50
+
+Temperature_effect:
+  alpha1: -0.018E-6
+  alpha2: 24.3E-6
+  alpha3: 24.3E-6
+  D_temperature: 50
+
+Humidity_effect:
+  beta1: 0
+  beta2: 0.44
+  beta3: 0.44
+  D_Moisture: 0.5
